@@ -3,11 +3,11 @@
   <title>寒山石径</title>
   
   <subtitle>个人博客</subtitle>
-  <link href="http://web.dujiaming.cn/atom.xml" rel="self"/>
+  <link href="https://yuelang14.github.io/MyBlog/atom.xml" rel="self"/>
   
-  <link href="http://web.dujiaming.cn/"/>
+  <link href="https://yuelang14.github.io/MyBlog/"/>
   <updated>2021-04-03T09:45:00.000Z</updated>
-  <id>http://web.dujiaming.cn/</id>
+  <id>https://yuelang14.github.io/MyBlog/</id>
   
   <author>
     <name>月狼</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Golabel操作手册</title>
-    <link href="http://web.dujiaming.cn/posts/5d7bd210/"/>
-    <id>http://web.dujiaming.cn/posts/5d7bd210/</id>
+    <link href="https://yuelang14.github.io/MyBlog/posts/5d7bd210/"/>
+    <id>https://yuelang14.github.io/MyBlog/posts/5d7bd210/</id>
     <published>2021-04-03T09:45:00.000Z</published>
     <updated>2021-04-03T09:45:00.000Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="郑州冉码" scheme="http://web.dujiaming.cn/categories/%E9%83%91%E5%B7%9E%E5%86%89%E7%A0%81/"/>
+    <category term="郑州冉码" scheme="https://yuelang14.github.io/MyBlog/categories/%E9%83%91%E5%B7%9E%E5%86%89%E7%A0%81/"/>
     
-    <category term="教程" scheme="http://web.dujiaming.cn/categories/%E9%83%91%E5%B7%9E%E5%86%89%E7%A0%81/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://yuelang14.github.io/MyBlog/categories/%E9%83%91%E5%B7%9E%E5%86%89%E7%A0%81/%E6%95%99%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>Framework 3.5安装</title>
-    <link href="http://web.dujiaming.cn/posts/86b42f21/"/>
-    <id>http://web.dujiaming.cn/posts/86b42f21/</id>
+    <link href="https://yuelang14.github.io/MyBlog/posts/86b42f21/"/>
+    <id>https://yuelang14.github.io/MyBlog/posts/86b42f21/</id>
     <published>2021-03-26T03:38:00.000Z</published>
     <updated>2021-03-26T03:38:00.000Z</updated>
     
@@ -58,15 +58,15 @@
     
     
     
-    <category term="教程" scheme="http://web.dujiaming.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://yuelang14.github.io/MyBlog/categories/%E6%95%99%E7%A8%8B/"/>
     
     
   </entry>
   
   <entry>
     <title>2021年产品手册</title>
-    <link href="http://web.dujiaming.cn/posts/a6f714f2/"/>
-    <id>http://web.dujiaming.cn/posts/a6f714f2/</id>
+    <link href="https://yuelang14.github.io/MyBlog/posts/a6f714f2/"/>
+    <id>https://yuelang14.github.io/MyBlog/posts/a6f714f2/</id>
     <published>2021-03-21T07:33:00.000Z</published>
     <updated>2021-03-21T07:33:00.000Z</updated>
     
@@ -83,17 +83,17 @@
     
     
     
-    <category term="郑州冉码" scheme="http://web.dujiaming.cn/categories/%E9%83%91%E5%B7%9E%E5%86%89%E7%A0%81/"/>
+    <category term="郑州冉码" scheme="https://yuelang14.github.io/MyBlog/categories/%E9%83%91%E5%B7%9E%E5%86%89%E7%A0%81/"/>
     
     
-    <category term="成果展示" scheme="http://web.dujiaming.cn/tags/%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA/"/>
+    <category term="成果展示" scheme="https://yuelang14.github.io/MyBlog/tags/%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA/"/>
     
   </entry>
   
   <entry>
     <title>时运赋（节选）</title>
-    <link href="http://web.dujiaming.cn/posts/9f11f68b/"/>
-    <id>http://web.dujiaming.cn/posts/9f11f68b/</id>
+    <link href="https://yuelang14.github.io/MyBlog/posts/9f11f68b/"/>
+    <id>https://yuelang14.github.io/MyBlog/posts/9f11f68b/</id>
     <published>2020-07-04T06:50:00.000Z</published>
     <updated>2020-07-04T06:50:00.000Z</updated>
     
@@ -107,15 +107,15 @@
     
     
     
-    <category term="随笔" scheme="http://web.dujiaming.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://yuelang14.github.io/MyBlog/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
   
   <entry>
     <title>一贫如洗的真心，一事无成的温柔</title>
-    <link href="http://web.dujiaming.cn/posts/f2756a74/"/>
-    <id>http://web.dujiaming.cn/posts/f2756a74/</id>
+    <link href="https://yuelang14.github.io/MyBlog/posts/f2756a74/"/>
+    <id>https://yuelang14.github.io/MyBlog/posts/f2756a74/</id>
     <published>2020-06-30T00:58:00.000Z</published>
     <updated>2020-06-30T00:58:00.000Z</updated>
     
@@ -132,15 +132,15 @@
     
     
     
-    <category term="随笔" scheme="http://web.dujiaming.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://yuelang14.github.io/MyBlog/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
   
   <entry>
     <title>万事开头难</title>
-    <link href="http://web.dujiaming.cn/posts/563539b5/"/>
-    <id>http://web.dujiaming.cn/posts/563539b5/</id>
+    <link href="https://yuelang14.github.io/MyBlog/posts/563539b5/"/>
+    <id>https://yuelang14.github.io/MyBlog/posts/563539b5/</id>
     <published>2020-06-21T14:38:00.000Z</published>
     <updated>2020-06-21T14:38:00.000Z</updated>
     
@@ -154,7 +154,7 @@
     
     
     
-    <category term="随笔" scheme="http://web.dujiaming.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://yuelang14.github.io/MyBlog/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
