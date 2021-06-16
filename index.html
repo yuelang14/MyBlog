@@ -98,6 +98,7 @@
 
     <div class="header-content has-first-screen">
         <div class="left">
+            
             <a class="logo-title" href="/">
                 寒山石径
             </a>
@@ -229,6 +230,36 @@
                 
 
                 <h3 class="home-article-title">
+                    <a href="/posts/ce5516fb/">
+                        鑫宝产品
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        固定资产RFID版本固定资产手持设备测试地址进销存管理软件手持设备测试地址
+下载地址
+
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Wed Jun 16 2021 08:53:49 GMT+0800">2021-06-16</span></span>
+        
+        
+    </div>
+
+    <a href="/posts/ce5516fb/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
                     <a href="/posts/9ad7cb18/">
                         临时视频播放
                     </a>
@@ -286,15 +317,26 @@ golabel程序下载页面golabel安装包
                         </li>
                     
                     
-                        <li>
-                            &gt; 
-                            <a href="/categories/%E9%83%91%E5%B7%9E%E5%86%89%E7%A0%81/%E6%95%99%E7%A8%8B/">教程</a>&nbsp;
-                        </li>
-                    
-                    
                 </ul>
             </span>
         
+        
+            <span class="home-article-tag">
+                <i class="fas fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA/">成果展示</a>&nbsp;
+                        </li>
+                    
+                        <li>
+                            | 
+                            <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
         
     </div>
 
@@ -699,7 +741,7 @@ Microsoft. NET Framework 3.5是支持生成和运行下一代应用程序和XML 
     <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.1/source/js/libs/pjax.min.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
-        const pjax = new Pjax({
+        window.pjax = new Pjax({
             selectors: [
                 'head title',
                 '.page-container',
@@ -721,7 +763,7 @@ Microsoft. NET Framework 3.5是支持生成和运行下一代应用程序和XML 
 
         document.addEventListener('pjax:complete', () => {
             KEEP.utils.pjaxProgressBarEnd();
-            pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
             KEEP.refresh();
         });
     });

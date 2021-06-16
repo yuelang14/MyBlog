@@ -54,6 +54,7 @@
 
     <div class="header-content">
         <div class="left">
+            
             <a class="logo-title" href="/">
                 寒山石径
             </a>
@@ -181,7 +182,7 @@
     <div class="fade-in-down-animation">
         <div class="tagcloud-container">
             <div class="tagcloud-content">
-                <a href="/tags/%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA/" style="font-size: 1rem;">成果展示</a>
+                <a href="/tags/%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA/" style="font-size: 1.6rem;">成果展示</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1rem;">教程</a>
             </div>
         </div>
     </div>
@@ -349,7 +350,7 @@
     <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.1/source/js/libs/pjax.min.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
-        const pjax = new Pjax({
+        window.pjax = new Pjax({
             selectors: [
                 'head title',
                 '.page-container',
@@ -371,7 +372,7 @@
 
         document.addEventListener('pjax:complete', () => {
             KEEP.utils.pjaxProgressBarEnd();
-            pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
             KEEP.refresh();
         });
     });

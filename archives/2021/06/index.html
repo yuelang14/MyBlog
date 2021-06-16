@@ -9,7 +9,7 @@
     
     <title>
         
-            分类: 教程 |
+            归档: 2021/6 |
         
         寒山石径
     </title>
@@ -54,6 +54,7 @@
 
     <div class="header-content">
         <div class="left">
+            
             <a class="logo-title" href="/">
                 寒山石径
             </a>
@@ -72,7 +73,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class=""
+                            <a class="active"
                                href="/archives"
                             >
                                 归档
@@ -80,7 +81,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/categories"
                             >
                                 分类
@@ -138,12 +139,12 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class=""
+                    <a class="active"
                        href="/archives">归档</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/categories">分类</a>
                 </li>
             
@@ -178,20 +179,30 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="category-container">
-        <div class="category-name">
-            <i class="fas fa-folder"></i>&nbsp;教程
-        </div>
-        <div class="category-post-list">
-            
+    <div class="archive-container ">
+        
 <div class="archive-list-container">
     
         <section class="archive-item">
             <div class="archive-item-header">
                 <span class="archive-year">2021</span>
-                <span class="archive-year-post-count">[1]</span>
+                <span class="archive-year-post-count">[5]</span>
             </div>
             <ul class="article-list">
+                
+                    <li class="article-item">
+                        <a class="article-title"
+                           href="/posts/ce5516fb/"
+                        >鑫宝产品</a>
+                        <span class="article-date">06-16</span>
+                    </li>
+                
+                    <li class="article-item">
+                        <a class="article-title"
+                           href="/posts/9ad7cb18/"
+                        >临时视频播放</a>
+                        <span class="article-date">04-17</span>
+                    </li>
                 
                     <li class="article-item">
                         <a class="article-title"
@@ -200,23 +211,58 @@
                         <span class="article-date">04-03</span>
                     </li>
                 
+                    <li class="article-item">
+                        <a class="article-title"
+                           href="/posts/86b42f21/"
+                        >Framework 3.5安装</a>
+                        <span class="article-date">03-26</span>
+                    </li>
+                
+                    <li class="article-item">
+                        <a class="article-title"
+                           href="/posts/a6f714f2/"
+                        >2021年产品手册</a>
+                        <span class="article-date">03-21</span>
+                    </li>
+                
+            </ul>
+        </section>
+    
+        <section class="archive-item">
+            <div class="archive-item-header">
+                <span class="archive-year">2020</span>
+                <span class="archive-year-post-count">[3]</span>
+            </div>
+            <ul class="article-list">
+                
+                    <li class="article-item">
+                        <a class="article-title"
+                           href="/posts/9f11f68b/"
+                        >时运赋（节选）</a>
+                        <span class="article-date">07-04</span>
+                    </li>
+                
+                    <li class="article-item">
+                        <a class="article-title"
+                           href="/posts/f2756a74/"
+                        >一贫如洗的真心，一事无成的温柔</a>
+                        <span class="article-date">06-30</span>
+                    </li>
+                
+                    <li class="article-item">
+                        <a class="article-title"
+                           href="/posts/563539b5/"
+                        >万事开头难</a>
+                        <span class="article-date">06-21</span>
+                    </li>
+                
             </ul>
         </section>
     
 </div>
 
-        </div>
-    </div>
-    <div class="category-paginator">
-        <div class="paginator">
-    
-
-    
-</div>
-
     </div>
 </div>
-
 
                 
             </div>
@@ -379,7 +425,7 @@
     <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.1/source/js/libs/pjax.min.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', () => {
-        const pjax = new Pjax({
+        window.pjax = new Pjax({
             selectors: [
                 'head title',
                 '.page-container',
@@ -401,7 +447,7 @@
 
         document.addEventListener('pjax:complete', () => {
             KEEP.utils.pjaxProgressBarEnd();
-            pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
             KEEP.refresh();
         });
     });
